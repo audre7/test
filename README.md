@@ -1,1 +1,5 @@
-askjndcadesxcfvgbnmk,dlf bf,gm fvn  hdeyw   y8ujismdkf nvbfy4g32woakL
+<!-- @format -->
+
+# This project is focused on building a simple shell
+
+# That will allow users to pass in commands and all
