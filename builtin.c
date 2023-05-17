@@ -10,7 +10,7 @@ int chng_path(info_t *path)
 {
 	int exitcheck;
 
-	if (path->argv[1])  /* If there is an exit arguement */
+	if (path->argv[1])  /* is there an arguement? */
 	{
 		exitcheck = _atoi(path->argv[1]);
 		if (exitcheck == -1)
@@ -88,7 +88,8 @@ int set_dir(info_t *path)
 	char **arg_array;
 
 	arg_array = path->argv;
-	_puts("help call works. Function not yet implemented \n");
+	_puts("call work if function not implemented \n");
 	if (0)
 		_puts(*arg_array); /* temp att_unused workaround */
 	return (0);
+}
